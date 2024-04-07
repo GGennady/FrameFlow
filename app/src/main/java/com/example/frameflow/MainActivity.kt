@@ -8,11 +8,14 @@ import com.example.frameflow.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    //private lateinit var binding: ActivityMainBinding
+    private var _binging: ActivityMainBinding? = null
+    private val binding
+        get() = _binging ?: throw IllegalStateException("Binding for ActivityMain must be not null.")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        _binging = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
 }
