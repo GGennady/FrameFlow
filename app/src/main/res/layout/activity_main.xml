@@ -46,4 +46,5 @@
         android:text="@string/textview_login"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/main_activity_registration_button"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
