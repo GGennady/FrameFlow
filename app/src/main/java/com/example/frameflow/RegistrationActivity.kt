@@ -64,7 +64,7 @@ class RegistrationActivity : AppCompatActivity() {
                 val email = it.email.toString()
                 val uid = it.uid
                 val firebaseUser = User(email, uid)
-                database.child("users").setValue(firebaseUser)// save our user to Firebase Realtime
+                database.child("users").setValue(firebaseUser)// save our user to irebase Realtime
             }
 
             // ...
