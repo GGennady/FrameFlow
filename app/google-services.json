@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "900986827185",
+    "project_id": "frameflow-77524",
+    "storage_bucket": "frameflow-77524.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900986827185:android:9939a66ef9f06d87684d90",
+        "android_client_info": {
+          "package_name": "com.example.frameflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5SWa8K460xrpm8PYXXGvx0NIvbRkKX2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
